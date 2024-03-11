@@ -12,4 +12,4 @@ How does the matching engine work?
 
 To implement the matching engine, a **Python-based heap framework** was used to match buy and sell orders placed by authorized clients. You can read more about this [here](matching%20engine/Matching_Engine_Core_integer_time.py) 
 
-We use the **FIX** protocol for the Matching Engine to communicate with Real Time Markets and Execution Links. 
+We use the **FIX** protocol for the Matching Engine to communicate with Real Time Markets and Execution Links. To know more about how we communicate in Python, you can find more about this [here](matching%20engine/server/matchingEngine.py) - we use a Python lib called [Quickfix](https://pypi.org/project/quickfix/).
